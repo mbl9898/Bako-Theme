@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f6f7ff;
+}
+a {
+  text-decoration: unset;
+}
+
+p {
+  color: #777;
+}
+
+i {
+  color: white;
+}
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.container {
+  margin: 2rem 5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav */
+
+nav {
+  background-color: #4a63e7;
+  max-width: 18rem !important;
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow-y: scroll;
+  margin: 1rem;
+  float: left !important;
+  height: 35rem;
+  position: fixed;
+  left: 7vw;
+  top: 2rem;
+}
+
+nav img {
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.nameTitle1 {
+  text-decoration: unset;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7rem;
+}
+.nameTitle2 {
+  text-decoration: unset;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1rem;
+}
+
+.navDot {
+  font-size: 0.5rem;
+  margin-left: 0.5rem;
+  color: #ff5959;
+}
+
+.jobTitle {
+  color: white;
+  margin: 0 0 2rem 0;
+}
+.navUl {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  margin: 0.5rem 0 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+li a {
+  color: white;
+}
+a i {
+  margin-right: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.socialMediaLinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+.socialMediaLinks a {
+  padding: 0.5rem;
+  background-color: #ff5959;
+  margin: 0.2rem;
+  border-radius: 50%;
+}
+
+.socialMediaLinks i {
+  margin: 0.2rem;
+  align-self: center;
+}
+
+.copyright {
+  color: white;
+  margin: 0;
+}
+/* Nav */
+
+/* Column2 Main */
+.col2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 27vw;
+  top: 2rem;
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 10rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: "Open Sans", sans-serif;
+}
+/* Section1 I'm */
+.iM {
+  background-color: #4a63e7;
+  width: 60vw;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  float: right !important;
+  height: 35rem;
+}
+
+.iM div {
+  margin: 9rem;
+}
+.iMH1 {
+  color: white;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  line-height: 4.5rem;
+}
+
+.iMDot {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  color: #ff5959;
+}
+
+.iMP {
+  color: white;
+  line-height: 1.8rem;
+}
+.btnico {
+  margin-right: 0.5rem;
+}
+
+/* Section1 I'm */
+
+/* Section2 About Me */
+.aboutMe {
+  background-color: #fff;
+  width: 60vw;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  float: right !important;
+  height: 35rem;
+}
+
+.aboutMeHeading {
+  color: #ff5959;
+  margin-top: 3rem;
+}
+.aboutMeMain {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.aboutMeData {
+  width: 50rem;
+}
+
+.profilePicAboutMe {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.aboutMeP {
+  margin: 0;
+  line-height: 2rem;
+}
+
+.aboutMeInfoTR {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+}
+.aboutMeInfo {
+  display: flex;
+  align-items: baseline;
+}
+.aboutMeInfo2 {
+  display: flex;
+  align-items: baseline;
+}
+.aboutMeInfoKey {
+  font-size: 1rem;
+}
+.aboutMeInfoValue {
+  color: #000;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+/* Section2 About Me */
+
+/* Main */
