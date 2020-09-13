@@ -181,6 +181,12 @@ a i {
 .iMP {
   color: white;
   line-height: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.iMP1 {
+  color: white;
+  line-height: 1rem;
+  margin-top: 0;
 }
 .btnico {
   margin-right: 0.5rem;
